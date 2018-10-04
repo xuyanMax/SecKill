@@ -52,4 +52,15 @@ public class SuccessKilled {
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
+
+    @Override
+    public String toString() {
+        return "SuccessKilled{" +
+                "seckillId=" + seckillId +
+                ", userPhone=" + userPhone +
+                ", state=" + state +
+                ", createTime=" + createTime +
+                ", seckill=" + seckill +
+                '}';
+    }
 }
