@@ -7,7 +7,6 @@ import org.seckill.dto.SeckillExecution;
 import org.seckill.entity.Seckill;
 import org.seckill.exception.RepeatKillException;
 import org.seckill.exception.SeckillCloseException;
-import org.seckill.service.impl.SeckillServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,7 +38,7 @@ public class SeckillServiceTest {
 
     @Test
     public void exportSeckillUrl() {
-        long id = 1000;
+        long id = 3000;
         Exposer exposer = seckillService.exportSeckillUrl(id);
         logger.info("exposer={}", exposer);
     }
