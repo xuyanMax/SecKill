@@ -1,6 +1,5 @@
 package org.seckill.enums;
 
-import org.seckill.entity.Seckill;
 
 /**
  * 试用枚举表示常量数据字典
